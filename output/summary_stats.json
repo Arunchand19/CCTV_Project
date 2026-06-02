@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-06-02T11:53:07.467331",
+  "files_generated": [
+    "CAM 1_heatmap.png",
+    "CAM 2_heatmap.png",
+    "CAM 3_heatmap.png",
+    "CAM 4_heatmap.png",
+    "CAM 5_heatmap.png",
+    "customer_positions.csv",
+    "dashboard_summary.png",
+    "dwell_times.csv",
+    "dwell_time_analysis.png",
+    "footfall.csv",
+    "footfall_analysis.png",
+    "hotspots.csv",
+    "insights.json",
+    "store_intelligence_report.html",
+    "timeline_analysis.png",
+    "zone_efficiency.csv"
+  ],
+  "insights": {
+    "total_detections": 71295,
+    "zones_analyzed": 5,
+    "peak_zone": "Entrance",
+    "avg_dwell_time": 139.5226,
+    "high_traffic_zones": [
+      "Checkout_Counter",
+      "Cosmetics_Section",
+      "Entrance"
+    ],
+    "recommendations": [
+      "High entrance activity - ensure adequate staff for customer greeting",
+      "Low traffic in: Fragrance_Section, Skincare_Section - consider promotional displays"
+    ]
+  }
+}

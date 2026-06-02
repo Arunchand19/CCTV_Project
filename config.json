@@ -1,0 +1,50 @@
+{
+  "video_processing": {
+    "frame_skip": 5,
+    "min_contour_area": 500,
+    "gaussian_blur_kernel": 21,
+    "background_learning_rate": 0.05,
+    "detection_threshold": 25
+  },
+  "zones": {
+    "CAM 1": {
+      "name": "Entrance",
+      "description": "Main entrance and exit area"
+    },
+    "CAM 2": {
+      "name": "Cosmetics_Section",
+      "description": "Makeup and cosmetics display area"
+    },
+    "CAM 3": {
+      "name": "Skincare_Section",
+      "description": "Skincare products section"
+    },
+    "CAM 4": {
+      "name": "Fragrance_Section",
+      "description": "Perfumes and fragrances area"
+    },
+    "CAM 5": {
+      "name": "Checkout_Counter",
+      "description": "Payment and checkout area"
+    }
+  },
+  "analytics": {
+    "heatmap_sigma": 15,
+    "hotspot_threshold": 0.7,
+    "min_dwell_time": 5,
+    "grid_resolution": {
+      "width": 64,
+      "height": 48
+    }
+  },
+  "visualization": {
+    "figure_size": [12, 8],
+    "dpi": 150,
+    "colormap": "jet"
+  },
+  "paths": {
+    "video_dir": "CCTV Footage-20260529T160731Z-3-00144614ea/CCTV Footage",
+    "store_layout": "Brigade Road - Store layoutc5f5d56.xlsx",
+    "output_dir": "output"
+  }
+}

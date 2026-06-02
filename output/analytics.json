@@ -1,0 +1,30 @@
+{
+  "session_id": "36452f50-6877-4282-88c1-74d43a533af5",
+  "unique_visitors": 11,
+  "entry_count": 11,
+  "exit_count": 0,
+  "total_events": 11,
+  "frames_processed": 188,
+  "duration_seconds": 7.52,
+  "fps": 25,
+  "zone_metrics": {
+    "ENTRANCE": {
+      "total_visits": 7,
+      "unique_visitors": 7
+    },
+    "ZONE_A": {
+      "total_visits": 3,
+      "unique_visitors": 3
+    },
+    "ZONE_B": {
+      "total_visits": 1,
+      "unique_visitors": 1
+    },
+    "EXIT": {
+      "total_visits": 0,
+      "unique_visitors": 0
+    }
+  },
+  "conversion_rate": 0.0,
+  "avg_session_duration": 1.8618181818181818
+}

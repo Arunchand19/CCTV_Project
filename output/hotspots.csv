@@ -1,0 +1,12 @@
+camera,zone,x,y,density
+CAM 1,Entrance,40,20,48.0
+CAM 1,Entrance,310,400,58.0
+CAM 1,Entrance,90,440,63.0
+CAM 2,Cosmetics_Section,160,230,50.0
+CAM 2,Cosmetics_Section,170,230,47.0
+CAM 2,Cosmetics_Section,160,240,39.0
+CAM 2,Cosmetics_Section,340,430,55.0
+CAM 3,Skincare_Section,230,40,77.0
+CAM 3,Skincare_Section,280,200,55.0
+CAM 4,Fragrance_Section,10,370,18.0
+CAM 5,Checkout_Counter,90,330,66.0

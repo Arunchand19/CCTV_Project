@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Store Intelligence Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .metric {
+            display: inline-block;
+            margin: 10px 20px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            min-width: 200px;
+        }
+        .metric-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .metric-label {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        .recommendation {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Store Intelligence Analytics Report</h1>
+        <p>Generated on: 2026-06-02 11:53:07</p>
+    </div>
+    
+    <div class="section">
+        <h2>Executive Summary</h2>
+        <div class="metric">
+            <div class="metric-value">71295</div>
+            <div class="metric-label">Total Detections</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">5</div>
+            <div class="metric-label">Zones Analyzed</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">139.5s</div>
+            <div class="metric-label">Avg Dwell Time</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Zone Performance</h2>
+        <p><strong>Peak Traffic Zone:</strong> Entrance</p>
+        <img src="footfall_analysis.png" alt="Footfall Analysis">
+    </div>
+    
+    <div class="section">
+        <h2>Dwell Time Analysis</h2>
+        <img src="dwell_time_analysis.png" alt="Dwell Time Analysis">
+    </div>
+    
+    <div class="section">
+        <h2>Customer Activity Timeline</h2>
+        <img src="timeline_analysis.png" alt="Timeline Analysis">
+    </div>
+    
+    <div class="section">
+        <h2>Recommendations</h2>
+        <div class="recommendation">1. High entrance activity - ensure adequate staff for customer greeting</div>
+        <div class="recommendation">2. Low traffic in: Fragrance_Section, Skincare_Section - consider promotional displays</div>
+
+    </div>
+    
+    <div class="section">
+        <h2>Detailed Metrics</h2>
+
+        <h3>Zone-wise Footfall</h3>
+        <table>
+            <tr>
+                <th>Zone</th>
+                <th>Footfall Count</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td>Checkout_Counter</td>
+                <td>16489</td>
+                <td>23.1%</td>
+            </tr>
+
+            <tr>
+                <td>Cosmetics_Section</td>
+                <td>21410</td>
+                <td>30.0%</td>
+            </tr>
+
+            <tr>
+                <td>Entrance</td>
+                <td>24852</td>
+                <td>34.9%</td>
+            </tr>
+
+            <tr>
+                <td>Fragrance_Section</td>
+                <td>1920</td>
+                <td>2.7%</td>
+            </tr>
+
+            <tr>
+                <td>Skincare_Section</td>
+                <td>6624</td>
+                <td>9.3%</td>
+            </tr>
+        </table>
+
+    </div>
+    
+    <div class="section">
+        <h2>Comprehensive Dashboard</h2>
+        <img src="dashboard_summary.png" alt="Dashboard Summary">
+    </div>
+    
+    <div class="section" style="text-align: center; color: #7f8c8d;">
+        <p>Store Intelligence Challenge - Purplle Tech 2026</p>
+        <p>End-to-End CCTV Analytics Solution</p>
+    </div>
+</body>
+</html>

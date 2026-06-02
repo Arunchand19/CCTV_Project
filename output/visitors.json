@@ -1,0 +1,103 @@
+{
+  "total_unique_visitors": 11,
+  "total_exits": 0,
+  "visitors": [
+    {
+      "id": "VIS_0001",
+      "frames_seen": 56,
+      "zones_visited": [
+        "ZONE_B",
+        "ZONE_A"
+      ],
+      "entry_time": "2026-06-02T15:32:59.127648+00:00"
+    },
+    {
+      "id": "VIS_0002",
+      "frames_seen": 48,
+      "zones_visited": [
+        "ZONE_A",
+        "ENTRANCE"
+      ],
+      "entry_time": "2026-06-02T15:32:59.529485+00:00"
+    },
+    {
+      "id": "VIS_0003",
+      "frames_seen": 56,
+      "zones_visited": [
+        "ZONE_A",
+        "ZONE_B",
+        "ENTRANCE"
+      ],
+      "entry_time": "2026-06-02T15:32:59.770844+00:00"
+    },
+    {
+      "id": "VIS_0004",
+      "frames_seen": 61,
+      "zones_visited": [
+        "ZONE_B",
+        "ZONE_A",
+        "ENTRANCE"
+      ],
+      "entry_time": "2026-06-02T15:32:59.771840+00:00"
+    },
+    {
+      "id": "VIS_0005",
+      "frames_seen": 49,
+      "zones_visited": [
+        "ZONE_A"
+      ],
+      "entry_time": "2026-06-02T15:32:59.771840+00:00"
+    },
+    {
+      "id": "VIS_0006",
+      "frames_seen": 58,
+      "zones_visited": [
+        "ZONE_A",
+        "ENTRANCE"
+      ],
+      "entry_time": "2026-06-02T15:32:59.773958+00:00"
+    },
+    {
+      "id": "VIS_0007",
+      "frames_seen": 38,
+      "zones_visited": [
+        "ENTRANCE",
+        "ZONE_A",
+        "ZONE_B"
+      ],
+      "entry_time": "2026-06-02T15:33:00.769742+00:00"
+    },
+    {
+      "id": "VIS_0008",
+      "frames_seen": 37,
+      "zones_visited": [
+        "ENTRANCE",
+        "ZONE_A"
+      ],
+      "entry_time": "2026-06-02T15:33:02.632736+00:00"
+    },
+    {
+      "id": "VIS_0009",
+      "frames_seen": 39,
+      "zones_visited": [
+        "ZONE_A"
+      ],
+      "entry_time": "2026-06-02T15:33:04.535708+00:00"
+    },
+    {
+      "id": "VIS_0010",
+      "frames_seen": 45,
+      "zones_visited": [
+        "ZONE_A",
+        "ENTRANCE"
+      ],
+      "entry_time": "2026-06-02T15:33:04.622001+00:00"
+    },
+    {
+      "id": "VIS_0011",
+      "frames_seen": 25,
+      "zones_visited": [],
+      "entry_time": "2026-06-02T15:33:06.279830+00:00"
+    }
+  ]
+}

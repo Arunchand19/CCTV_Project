@@ -1,0 +1,15 @@
+{
+  "total_detections": 71295,
+  "zones_analyzed": 5,
+  "peak_zone": "Entrance",
+  "avg_dwell_time": 139.5226,
+  "high_traffic_zones": [
+    "Checkout_Counter",
+    "Cosmetics_Section",
+    "Entrance"
+  ],
+  "recommendations": [
+    "High entrance activity - ensure adequate staff for customer greeting",
+    "Low traffic in: Fragrance_Section, Skincare_Section - consider promotional displays"
+  ]
+}

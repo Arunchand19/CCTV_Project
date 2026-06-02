@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Local config
+config.json
+
+# Outputs / artifacts
+output/
+output-*/
+
+# Templates
+# (keep tracked templates; ignore only generated assets if any)
+
+# Media uploads / large footage
+uploads/
+CCTV Footage-*/
+
+# Video files
+*.mp4
+*.mov
+*.mkv
+*.avi
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+

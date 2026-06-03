@@ -1,24 +1,24 @@
 {
-  "session_id": "36452f50-6877-4282-88c1-74d43a533af5",
-  "unique_visitors": 11,
-  "entry_count": 11,
+  "session_id": "9ffca8ad-9173-4bf1-b32b-e07434dbde56",
+  "unique_visitors": 6,
+  "entry_count": 6,
   "exit_count": 0,
-  "total_events": 11,
-  "frames_processed": 188,
-  "duration_seconds": 7.52,
-  "fps": 25,
+  "total_events": 6,
+  "frames_processed": 562,
+  "duration_seconds": 19.379310344827587,
+  "fps": 29,
   "zone_metrics": {
     "ENTRANCE": {
-      "total_visits": 7,
-      "unique_visitors": 7
+      "total_visits": 6,
+      "unique_visitors": 6
     },
     "ZONE_A": {
-      "total_visits": 3,
-      "unique_visitors": 3
+      "total_visits": 0,
+      "unique_visitors": 0
     },
     "ZONE_B": {
-      "total_visits": 1,
-      "unique_visitors": 1
+      "total_visits": 0,
+      "unique_visitors": 0
     },
     "EXIT": {
       "total_visits": 0,
@@ -26,5 +26,5 @@
     }
   },
   "conversion_rate": 0.0,
-  "avg_session_duration": 1.8618181818181818
+  "avg_session_duration": 15.908045977011495
 }

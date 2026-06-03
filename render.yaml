@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: cctv-analytics
+    env: python
+    runtime: python
+    buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements_webapp.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 300 --workers 2
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
